@@ -4,34 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <title>Domain name generator</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <h2 class="mt-4">Dominios Generados</h2>
-      <div id="resultados"></div>
-<table id="tablaResultados" border="1">
-  <thead>
-    <tr>
-      <th>Pronombre</th>
-      <th>Dominio Generado</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+  <body class="bg-white">
+    <div class="container text-center my-4">
+      <h2 class="mt-4">Generated Domains</h2>
+      <div id="results" class="row justify-content-center"></div>
     <script type="module" src="/app.js"></script>
   </body>
 </html>
